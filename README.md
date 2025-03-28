@@ -1,25 +1,27 @@
 # Hunt Showdown Gunathon Tracker
 
-![Screenshot](screenshot.png) *(optional)*
 
-A simple tracker for Hunt Showdown's Gunathon event.
+Track your Gunathon progress with this Python tool.
 
-## How to Use
-1. **Download**:
-   - Click "Code" → "Download ZIP"
-   - Extract the folder
+## How to Run
+1. Install Python 3.8+ from [python.org](https://python.org)
+2. Download these files:
+   - [item_tracker.py](item_tracker.py)
+   - [items.xlsx](items.xlsx)
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run:
+   ```bash
+   python item_tracker.py
+   ```
 
-2. **Run**:
-   - Install Python if needed (from [python.org](https://python.org))
-   - Double-click `item_tracker.py` or run:
-     ```bash
-     python item_tracker.py
-     ```
+## Features
+- Tracks weapon progression
+- Customizable overlay
+- Excel import/export
+- Keyboard shortcuts
 
-3. **First Run**:
-   - The program will automatically create `items.xlsx` if missing
-   - Edit the Excel file to add your own weapons
-
-## Controls
-- `+1`/`-1` buttons or arrow keys to adjust kills
-- `Ctrl+O` to toggle overlay
+## First Run
+- The program will automatically create `items.xlsx` if missing
